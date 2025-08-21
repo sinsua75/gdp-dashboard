@@ -10,7 +10,7 @@ if 'private_suggestions' not in st.session_state:
     st.session_state.private_suggestions = pd.DataFrame(columns=['이름', '내용', '날짜'])
 
 # --- 제목 및 설명 ---
-st.title("온라인 건의함 📝")
+st.title("온라인 건의함 📝 ")
 st.write("여러분의 소중한 의견을 남겨주세요.")
 
 # --- 탭 구성: 건의하기와 공개 건의함 보기 ---
